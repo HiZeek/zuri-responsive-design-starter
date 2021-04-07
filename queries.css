@@ -131,7 +131,11 @@
     }
 
     ul.nav-links {
-        display: grid;
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
     }
 
     /* Header section */
