@@ -1,0 +1,119 @@
+/* screens from 1201 to 1440px */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* screens from 1025 to 1200px */
+
+@media only screen and (max-width: 1024px) {
+
+    
+}
+
+/* screens from 769 to 1024px */
+
+@media only screen and (max-width: 1024px) {
+
+    
+}
+
+/* screens from 481 to 768px */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+/* screens from 0 to 480px */
+
+@media only screen and (max-width: 425px) {
+
+    /* Navigation */
+
+    div.nav-bar {
+        padding: 1rem 2rem;
+    }
+
+    div.logo {
+        font-size: 1.2rem;
+    }
+
+    ul.nav-links {
+        display: grid;
+    }
+
+    /* Header section */
+
+    div.hero-section {
+        background: #304353;
+        padding: 3rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.2rem;
+    }
+
+    div.hero-content-heading p {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    /* Background section */
+
+    div.hero-background-pos {
+        display: none;
+    }
+
+    div.hero-background {
+        padding: 1rem;
+    }
+
+    div.background h4 {
+        padding: 1.5rem 0.5rem;
+    }
+
+    div.background p {
+        padding-left: 0.5rem;
+    }
+
+    /* Snapshot section */
+
+    div.snapshot-team {
+        padding: 2rem 4rem 0 4rem;
+    }
+
+    div.snapshot-team h2 {
+        font-size: 1.2rem;
+    }
+
+    div.snapshot-team p {
+        font-size: 0.8rem;
+        padding-top: 0.8rem;
+    }
+
+    div.snapshot-box-content {
+        display: grid;
+    }
+
+    /* Gallery section */
+
+    div.gallery-content h4 {
+        font-size: 1.2rem;
+    }
+
+    div.gallery-content p {
+        font-size: 0.8rem;
+    }
+
+    /* Message section */
+
+    div.footer-content h4 {
+        font-size: 1.2rem;
+    }
+
+    div.footer-content p {
+        font-size: 0.8rem;
+    }
+
+
+}
