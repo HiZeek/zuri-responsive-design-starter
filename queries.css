@@ -132,10 +132,22 @@
 
     ul.nav-links {
         display: none;
+        position: absolute;
+        left: 0;
+        top: 3rem;
+        width: 100%;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    
+    ul li {
+        margin: 15px 0;
     }
 
-    ul.nav-links-mobile {
-        display: none;
+    ul li a:hover {
+        color: #304353;
+        background: none;
+        padding: 1rem;
     }
 
     .mobile-nav-open {
@@ -144,6 +156,10 @@
 
     .mobile-nav-close {
         display: none;
+    }
+
+    .show-mobileNavLinks {
+        display: block;
     }
 
     /* Header section */

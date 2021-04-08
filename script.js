@@ -20,14 +20,17 @@
 //   }
 
 const openMobileNav = document.querySelector('.mobile-nav-open')
-const mobileNavLinks = document.querySelector('.nav-links-mobile')
-// const closeMobileNav = document.querySelector('.mobile-nav-close')
+const mobileNavLinks = document.querySelector('.nav-links')
+const closeMobileNav = document.querySelector('.mobile-nav-close')
 
 // open menu
 
-openMobileNav.addEventListener('click', () => {
-    mobileNavLinks.classList.add('.show-mobileNavLinks')
+openMobileNav.addEventListener('click', (event) => {
+    mobileNavLinks.classList.toggle('show-mobileNavLinks')
+    console.log(event)
 });
+
+
 
 // close menu
 

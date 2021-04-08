@@ -52,13 +52,13 @@ ul li a:hover {
 
 /* Mobile nav */
 
-.mobile-nav-open,
-.mobile-nav-close {
+.mobile-nav-open
+/* .mobile-nav-close { */ {
     cursor: pointer;
 }
 
-.mobile-nav-open,
-.mobile-nav-close {
+.mobile-nav-open
+/* .mobile-nav-close { */ {
     color: #ffffff;
     font-size: 2rem;
     display: none;
