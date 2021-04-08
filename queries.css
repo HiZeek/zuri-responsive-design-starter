@@ -134,8 +134,16 @@
         display: none;
     }
 
-    .mobile-nav-icon {
+    ul.nav-links-mobile {
+        display: none;
+    }
+
+    .mobile-nav-open {
         display: inline-block;
+    }
+
+    .mobile-nav-close {
+        display: none;
     }
 
     /* Header section */
@@ -192,7 +200,12 @@
     }
 
     div.snapshot-box-content {
-        display: grid;
+        display: block;
+    }
+
+    div.box1, 
+    div.box3 {
+        margin-top: 1rem;
     }
 
     /* Gallery section */
@@ -216,16 +229,23 @@
     }
 
     div.footer-input {
-        display: grid;
+        display: block;
+        text-align: center;
     }
 
     input[type="text"] {
-        width: 100%;
+        width: 60%;
         margin-bottom: 1rem;
     }
 
     input[type="email"] {
-        width: 100%;
+        width: 60%;
+    }
+
+    div.footer-textarea {
+        display: block;
+        text-align: center;
+        width: 60%;
     }
 
 

@@ -26,6 +26,12 @@ ul.nav-links {
     padding: 0;
 }
 
+ul.nav-links-mobile {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
 ul li {
     margin: 0 2vw;
     list-style: none;
@@ -46,11 +52,13 @@ ul li a:hover {
 
 /* Mobile nav */
 
-mobile-nav {
+.mobile-nav-open,
+.mobile-nav-close {
     cursor: pointer;
 }
 
-.mobile-nav-icon {
+.mobile-nav-open,
+.mobile-nav-close {
     color: #ffffff;
     font-size: 2rem;
     display: none;
