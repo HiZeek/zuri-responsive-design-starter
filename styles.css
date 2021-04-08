@@ -10,6 +10,7 @@
 div.nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 6rem;
     width: 100vw;
     background: #304353;
@@ -52,13 +53,11 @@ ul li a:hover {
 
 /* Mobile nav */
 
-.mobile-nav-open
-/* .mobile-nav-close { */ {
+.mobile-nav-open {
     cursor: pointer;
 }
 
-.mobile-nav-open
-/* .mobile-nav-close { */ {
+.mobile-nav-open {
     color: #ffffff;
     font-size: 2rem;
     display: none;
