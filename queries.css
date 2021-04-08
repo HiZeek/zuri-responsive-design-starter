@@ -163,9 +163,6 @@
         display: inline-block;
     }
 
-    .mobile-nav-close {
-        display: none;
-    }
 
     ul.nav-links.show-mobileNavLinks {
         display: block;
