@@ -102,7 +102,9 @@
     }
 
     div.footer-input {
-        display: grid;
+        display: block;
+        width: 60%;
+        margin: 0 auto;
     }
 
     input[type="text"] {
@@ -113,6 +115,12 @@
     input[type="email"] {
         width: 100%;
     }
+
+    textarea {
+        width: 60%;
+    }
+
+    
 
 }
 
@@ -244,27 +252,6 @@
     div.footer-content p {
         font-size: 0.8rem;
     }
-
-    div.footer-input {
-        display: block;
-        text-align: center;
-    }
-
-    input[type="text"] {
-        width: 60%;
-        margin-bottom: 1rem;
-    }
-
-    input[type="email"] {
-        width: 60%;
-    }
-
-    div.footer-textarea {
-        display: block;
-        text-align: center;
-        width: 60%;
-    }
-
 
 }
 
