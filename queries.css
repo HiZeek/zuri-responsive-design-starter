@@ -183,11 +183,6 @@
 
     ul.nav-links.show-mobileNavLinks {
         display: block;
-        transition: 2s;
-        -webkit-transition: 2s;
-        -moz-transition: 2s;
-        -ms-transition: 2s;
-        -o-transition: 2s;
     }
 
     /* Header section */
@@ -274,7 +269,7 @@
 
     div.footer-input {
         display: block;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -288,7 +283,7 @@
     }
 
     textarea {
-        width: 70%;
+        width: 80%;
     }
 
 }
@@ -300,6 +295,25 @@
     div.background {
         padding: 15px 10px;
         height: 200px;
+    }
+
+    div.footer-input {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    input[type="email"] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
     }
 
 }
