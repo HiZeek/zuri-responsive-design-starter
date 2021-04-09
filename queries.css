@@ -71,6 +71,24 @@
         height: 230px;
     }
 
+    div.footer-input {
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    input[type="email"] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 75%;
+    }
+
 }
 
 /* screens from 916px to 970px */
@@ -102,14 +120,13 @@
     }
 
     div.footer-input {
-        display: block;
-        width: 90%;
+        display: flex;
+        width: 80%;
         margin: 0 auto;
     }
 
     input[type="text"] {
         width: 100%;
-        margin-bottom: 1rem;
     }
 
     input[type="email"] {
@@ -117,7 +134,7 @@
     }
 
     textarea {
-        width: 90%;
+        width: 80%;
     }
 
     
@@ -166,6 +183,11 @@
 
     ul.nav-links.show-mobileNavLinks {
         display: block;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
     }
 
     /* Header section */
@@ -248,6 +270,25 @@
 
     div.footer-content p {
         font-size: 0.8rem;
+    }
+
+    div.footer-input {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    input[type="email"] {
+        width: 100%;
+    }
+
+    textarea {
+        width: 70%;
     }
 
 }
